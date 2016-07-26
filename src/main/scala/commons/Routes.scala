@@ -13,5 +13,6 @@ object Routes {
   val routeToPosts = s"$host/posts"
   def routeToPost(id: Int) = s"$host/posts/$id"
   val routeToProfile = s"$host/profile"
+  val test = ""
 
 }
